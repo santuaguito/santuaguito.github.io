@@ -1,0 +1,89 @@
+.beta, body {
+  color: black;
+  background-color: black;
+}
+
+p, a, h3 {
+  color: white;
+}
+
+p, h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo1, .logo2 {
+  margin: 2%;
+  padding: 2%;
+}
+
+.logo1 {
+  font-size: 550%;
+}
+
+.logo2 {
+  font-size: 150%;
+}
+
+.saludo {
+  margin: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  padding: 2%;
+  font-size: 300%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+.boton a:hover {
+  background-color: white;
+  color: black;
+}
+
+.bye {
+  font-size: 250%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boton2 {
+  font-size: 200%;
+  display: flex;
+  justify-content: space-between;
+  display: block;
+}
+
+.boton, .bye, .boton2 {
+  margin: 150px;
+}
+
+.rotate {
+  display: flex;
+  justify-content: initial;
+  background-color: #a7fcb2;
+  width: 40px;
+  height: -50px;
+  margin: 40px;
+  transform: rotate(-25deg);
+  position: fixed;
+}
+
+.beta {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: larger;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+h3{
+    color: white;
+    font-size: 150%;
+    padding: 1%;
+    text-align: center;
+
+}
+
+a{
+    text-align: center;
+    color: white;
+}
+
+.bye{
+    display: flex;
+    margin: 150px;
+    justify-content: space-around;
+    font-size: 250%;
+}
+
+.boton2{
+    display: flex;
+    margin: 150px;
+    justify-content: center;
+   
+    font-size: 200%;
+}
+
+.boton2 a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.rotate{
+    display: flex;
+    justify-content: initial;
+    background-color: rgb(173, 230, 181);
+    width: 200px;
+    height: -50px;
+    transform: rotate(-25deg);
+    margin: 40px;
+    position: fixed;
+    
+    
+
+}
+.beta{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    font-size: larger;
+    
+
+}   

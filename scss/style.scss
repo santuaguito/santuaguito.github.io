@@ -1,0 +1,101 @@
+@import 'colores/color';
+@import 'size/tamaño';
+@import 'texto/text';
+@import 'box/box';
+
+.beta, body{
+    color: $color-primario;
+    background-color: $color-primario;
+}
+
+p, a, h3{
+    color: $color-secundario
+}
+
+p,h3{
+    text-align: $postext-1;
+}
+
+a{
+    text-decoration: $decotext-1;
+}
+
+
+.logo1, .logo2{
+    margin: $tam-1;
+    padding: $tam-1;
+}
+.logo1{
+    font-size: $tamtext-5;
+}
+
+.logo2{
+    font-size: $tamtext-1;
+}
+
+.saludo{
+    margin:$tam-2;
+    display: $box-1;
+    justify-content: $postext-1;
+}
+.boton{
+    padding: $tam-1;
+    font-size: $tamtext-4;
+    text-align: $postext-1;
+    margin-left: $tam-6;
+    margin-right: $tam-6;
+    display: $box-1;
+    justify-content: $postext-1;
+    display: $box-2;
+    a{
+        &:hover{
+            background-color: $color-secundario;
+            color: $color-primario;
+        }
+    }
+
+}
+
+.bye{
+    font-size: $tamtext-3;
+    display: $box-1;
+    justify-content: $box-4;
+
+}
+
+.boton2{
+    font-size: $tamtext-2;
+    display: $box-1;
+    justify-content: $box-5;
+    display:$box-2
+}
+
+.boton, .bye, .boton2{
+    margin: $tam-3;   
+}
+
+
+
+.rotate{
+    display: $box-1;
+    justify-content: $box-3; 
+    background-color: $color-tercero;
+    width: $tam-4;
+    height: $tam-5;
+    margin: $tam-4;
+    transform:$tam-7;
+    position:$box-6;
+   
+
+}
+
+.beta{
+    color: $color-secundario;
+    display: $box-1;
+    justify-content: $postext-1;
+    margin:$tam-6;
+    font-size: $tamtext-6;
+    align-items: $postext-1;
+   
+
+}
